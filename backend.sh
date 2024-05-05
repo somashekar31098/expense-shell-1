@@ -11,7 +11,7 @@ dnf module enable nodejs:20 -y &>>LOGFILE
 Validate $? "enabling nodejs"
 
 dnf install nodejs -y &>>LOGFILE
-Validate $? "installing nodejs"
+Validate $? "installing a nodejs"
 
 id expense
 if [ $? -ne 0 ]
