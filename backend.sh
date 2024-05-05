@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./common.sh
+source ./common.sh  &>>LOGFILE
 
 check_root
 
